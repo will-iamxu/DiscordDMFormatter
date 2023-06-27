@@ -33,7 +33,7 @@ for message in messages[1:]:  #skip first line
         elif "Pinned a message" in line:
             skip_message = True
             pinned_count += 1
-        if "==============================================================" in line:
+        if re.search(r'={62,}', line):
             skip_message = True
         if skip_message:
             break
