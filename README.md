@@ -11,7 +11,7 @@ DiscordDMFormatter is a Python script designed to clean and format Discord chat 
 
 ## Usage
 
-To use DiscordDMFormatter, you first need to export your Discord chat logs. This can be done using the [DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter) tool.
+To use DiscordDMFormatter, you first need to export your Discord chat logs AS A TXT. This can be done using the [DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter) tool.
 
 Once you have your chat logs, simply run the DiscordDMFormatter script with the chat log file as input:
 
